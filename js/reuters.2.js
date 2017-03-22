@@ -4,7 +4,7 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      solrUrl: 'http://91.99.101.68:8983/solr/gettingstarted/'
+      solrUrl: 'http://91.99.101.68:8983/solr/j2eebook/'
     });
     Manager.addWidget(new AjaxSolr.ResultWidget({
       id: 'result',
